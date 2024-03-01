@@ -185,12 +185,13 @@ Same as before, but watching for new/changed files to process
 ```
 rembg p -w path/to/input path/to/output
 ```
+
 ### NEWLY ADDED
 
 Remove background from all files in directory DEEMED and save results into newly created directory DEEMED_removed
 ```
 rembg p --model isnet-general-use 'DEEMED' 'DEEMED_removed'
-``
+```
 
 ### rembg `s`
 
